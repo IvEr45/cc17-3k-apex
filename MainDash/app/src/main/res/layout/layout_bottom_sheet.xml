@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Total Scans Section -->
+    <TextView
+        android:id="@+id/tv_scan_count1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Points: 0"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="8dp" />
+
+    <!-- Shop Header -->
+    <TextView
+        android:id="@+id/tv_shop_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shop"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="start"
+        android:paddingBottom="8dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Claim Items in Baguio Tourism Office"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+    <!-- Shop Items List -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_shop_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" />
+</LinearLayout>

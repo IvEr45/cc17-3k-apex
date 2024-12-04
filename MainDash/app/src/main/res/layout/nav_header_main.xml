@@ -1,0 +1,29 @@
+<!-- res/layout/nav_header_main.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:paddingBottom="100dp"
+    android:paddingTop="20dp"
+    android:paddingLeft="30dp">
+
+    <TextView
+        android:id="@+id/tv_user_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome, User!"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_total_scans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Points: 0"
+        android:textSize="16sp"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
